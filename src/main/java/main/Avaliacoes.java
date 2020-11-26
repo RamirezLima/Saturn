@@ -101,6 +101,8 @@ public class Avaliacoes extends javax.swing.JFrame {
 
     private void exitMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_exitMousePressed
         // TODO add your handling code here:
+        Home home= new Home();
+        home.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_exitMousePressed
 int xx,xy;

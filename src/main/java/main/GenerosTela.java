@@ -139,6 +139,8 @@ public class GenerosTela extends javax.swing.JFrame {
         // TODO add your handling code here:
 //        Home home = new Home();
 //        home.setVisible(true);
+        Home home= new Home();
+        home.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_exitMousePressed
     int xx, xy;

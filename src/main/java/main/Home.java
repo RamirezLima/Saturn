@@ -35,8 +35,6 @@ public class Home extends javax.swing.JFrame {
         jSeparator1 = new javax.swing.JSeparator();
         jLabel1 = new javax.swing.JLabel();
         jLabel16 = new javax.swing.JLabel();
-        jPanel3 = new javax.swing.JPanel();
-        jLabel2 = new javax.swing.JLabel();
         jPanel4 = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
@@ -46,10 +44,6 @@ public class Home extends javax.swing.JFrame {
         jPanel6 = new javax.swing.JPanel();
         jLabel7 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
-        jPanel7 = new javax.swing.JPanel();
-        jLabel9 = new javax.swing.JLabel();
-        jPanel8 = new javax.swing.JPanel();
-        jLabel11 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setLocationByPlatform(true);
@@ -109,37 +103,6 @@ public class Home extends javax.swing.JFrame {
         jPanel2.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 80, -1, -1));
 
         jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 860, 180));
-
-        jPanel3.setBackground(java.awt.SystemColor.controlHighlight);
-        jPanel3.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                jPanel3MouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                jPanel3MouseExited(evt);
-            }
-        });
-
-        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(45, 118, 232));
-        jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel2.setText("Update");
-
-        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
-        jPanel3.setLayout(jPanel3Layout);
-        jPanel3Layout.setHorizontalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 140, Short.MAX_VALUE)
-        );
-        jPanel3Layout.setVerticalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel3Layout.createSequentialGroup()
-                .addGap(92, 92, 92)
-                .addComponent(jLabel2)
-                .addContainerGap(13, Short.MAX_VALUE))
-        );
-
-        jPanel1.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 460, 140, 120));
 
         jPanel4.setBackground(java.awt.SystemColor.controlHighlight);
         jPanel4.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -222,44 +185,6 @@ public class Home extends javax.swing.JFrame {
 
         jPanel1.add(jPanel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 320, 140, 120));
 
-        jPanel7.setBackground(java.awt.SystemColor.controlHighlight);
-        jPanel7.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                jPanel7MouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                jPanel7MouseExited(evt);
-            }
-        });
-        jPanel7.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel9.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel9.setForeground(new java.awt.Color(45, 118, 232));
-        jLabel9.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel9.setText("Settings");
-        jPanel7.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 88, 140, -1));
-
-        jPanel1.add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 460, 140, 120));
-
-        jPanel8.setBackground(java.awt.SystemColor.controlHighlight);
-        jPanel8.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                jPanel8MouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                jPanel8MouseExited(evt);
-            }
-        });
-        jPanel8.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel11.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel11.setForeground(new java.awt.Color(45, 118, 232));
-        jLabel11.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel11.setText("Classes");
-        jPanel8.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 94, 140, -1));
-
-        jPanel1.add(jPanel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 460, 140, 120));
-
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -324,48 +249,19 @@ public class Home extends javax.swing.JFrame {
         resetColor(jPanel6);//chama o método resetcolor (efeito :hover similar CSS3)
     }//GEN-LAST:event_jPanel6MouseExited
 
-    private void jPanel7MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel7MouseEntered
-        // TODO add your handling code here:
-        setColor(jPanel7);//chama o método setcolor (efeito :hover similar CSS3)
-    }//GEN-LAST:event_jPanel7MouseEntered
-
-    private void jPanel7MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel7MouseExited
-        // TODO add your handling code here:
-        resetColor(jPanel7);//chama o método resetcolor (efeito :hover similar CSS3)
-        
-    }//GEN-LAST:event_jPanel7MouseExited
-
-    private void jPanel8MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel8MouseEntered
-        // TODO add your handling code here:
-        setColor(jPanel8);//chama o método setcolor (efeito :hover similar CSS3)
-    }//GEN-LAST:event_jPanel8MouseEntered
-
-    private void jPanel8MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel8MouseExited
-        // TODO add your handling code here:
-        resetColor(jPanel8);//chama o método resetcolor (efeito :hover similar CSS3)
-    }//GEN-LAST:event_jPanel8MouseExited
-
-    private void jPanel3MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel3MouseEntered
-        // TODO add your handling code here:
-        setColor(jPanel3);//chama o método setcolor (efeito :hover similar CSS3)
-    }//GEN-LAST:event_jPanel3MouseEntered
-
-    private void jPanel3MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel3MouseExited
-        // TODO add your handling code here:
-        resetColor(jPanel3);//chama o método resetcolor (efeito :hover similar CSS3)
-    }//GEN-LAST:event_jPanel3MouseExited
-
     private void jPanel4MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel4MousePressed
         // TODO add your handling code here:
         //new GenerosTela().setVisible(true);
         GenerosTela homedata= new GenerosTela();
         homedata.setVisible(true);
+        this.setVisible(false);
     }//GEN-LAST:event_jPanel4MousePressed
 
     private void jPanel5MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel5MousePressed
         // TODO add your handling code here:
         //just a sample.
         new Recomendacoes().setVisible(true);
+        this.setVisible(false);
     }//GEN-LAST:event_jPanel5MousePressed
 
     private void jPanel4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel4MouseClicked
@@ -381,6 +277,7 @@ public class Home extends javax.swing.JFrame {
     private void jPanel6MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel6MousePressed
         // TODO add your handling code here:
         new Avaliacoes().setVisible(true);
+        this.setVisible(false);
     }//GEN-LAST:event_jPanel6MousePressed
  public void setColor(JPanel panel)
  {
@@ -435,25 +332,19 @@ public class Home extends javax.swing.JFrame {
     private javax.swing.JLabel exit;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
-    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
-    private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
-    private javax.swing.JPanel jPanel7;
-    private javax.swing.JPanel jPanel8;
     private javax.swing.JSeparator jSeparator1;
     // End of variables declaration//GEN-END:variables
 }
