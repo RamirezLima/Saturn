@@ -17,7 +17,7 @@ public class ConexaoDB {
     public static String porta = "3306";
     public static String db = "saturn";
     public static String usuario = "root";
-    public static String senha = "LEid9.vida";
+    public static String senha = "1234";
     
     
     public static Connection obterConexao () throws Exception{
